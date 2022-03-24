@@ -1,0 +1,146 @@
+<html>
+<head>
+<title> APPLICATION FORM</title>
+<script>
+	function convert()
+	{
+		var x=document.getElementsByClassName("cls");
+		var i;
+		for( i=0; i<x.length; i++)
+		{
+			x[i].value=x[i].value.toUpperCase();
+		}
+	}
+	function addImage()
+	{
+		document.getElementById("img").innerHTML+="<img src='nikita.jpg' width='200' height='200'/>"
+	}
+</script>
+<style>
+
+fieldset{
+		background-color:black;
+		/*margin-right:800px;*/
+		border:2px groove;
+		padding:20 20 20 20;
+		width:705;
+		}
+legend{
+		background-color:black;
+	/*	margin-left:230px; */
+		
+		} 
+.btn1,.btn2,.btn3{
+		font-size:10px;
+	    padding:15px 30px;
+		margin:10px;
+		transition:font-size 1s;
+		}
+		
+input.btn1:hover,input.btn2:hover,input.btn3:hover{
+		font-size:20px;
+		box-shadow:10px 10px 25px tomato;
+		
+		}
+/*input{onblur:convert();}*/
+input:hover{
+		background-color:lightGray;
+		box-shadow:10px 10px 25px gray;
+		}
+
+.tabForButton{
+		margin-left:110px;
+		}
+.logo{
+		border:3px solid tomato;
+		border-radius:50%;
+		}
+img.logo:hover{box-shadow:10px 10px 25px silver;}
+
+hr{
+		 margine-right:100;
+		 width:350;
+		 }
+.image1:hover{
+		box-shadow:10px 10px 25px tomato;}
+h3		{text-shadow:4px 4px 8px silver;}
+
+h1		{position:fixed;
+		bottom:0;
+		right:2;
+		width:320;
+		color:black;
+		background-color:rgba(255,255,255,0.5);
+		text-shadow:0 0 3px #FF0000;
+		}
+
+</style>
+</head>
+
+<body style="background-image:linear-gradient(navy,purple,hotpink);">
+  <form action="C:\xampp\htdocs\myproject\me.php" method="post">
+  <fieldset>
+  <legend><font color="red">TARUN INDIA INSTITUTE:</legend>
+  
+  <table bgcolor="mediumSeaGreen" border="0" width="700" border="0">
+  <tr><td><table height="100" width="100"><tr align="left"><td><div  style="overflow:hidden;"><img class="logo" hieght="100" width=100" src="logo.png" alt="logo"/></div></td></tr></table></td><td><h3>APPLICATION  FORM  FOR  ADMISSION<hr align="left" color="tomato"></h3></td></tr>
+  </table>
+  
+  <table bgcolor="mediumSeaGreen" height="92%" width="700" border="0">
+	<tr><td><label for="fname"> <h4>First name:</h4></label></td><td height=""><input onblur="convert()" type="text" class="cls" name="fname"></td><td rowspan="6"><table border="0"><tr><td><img /><div id="img" class="image" style="border:2px solid tomato;height:200px;width:200px;"></div></td></tr></table></td></tr>
+    <tr><td><label for="lname"><h4>Last name:</h4></label></td><td><input onblur="convert()" type="text" class="cls" name="lname"></td></tr>
+    <tr><td><label for="Fname"><h4>Father's name:</h4></label></td><td><input onblur="convert()" type="text" class="cls" name="Fname"></td></tr>
+	<tr><td><label for="Mname"><h4>Mother's name:</h4></label></td><td><input onblur="convert()" type="text" class="cls" name="Mname"></td></tr>
+	<tr><td><label for="email"><h4>Email: </h4></label></td><td><input type="email" id="email" name="email"> </td></tr>
+	<tr><td><label for="mob"><h4>Contact No:</h4></label></td><td><input type="tel" id="mob" name="mob" title="no shuld be like 'countryCode-1234567890'" placeholder="+91" pattern="[0-9]{2}-[0-9]{10}" required ></td></tr>
+	<tr><td><label for="birthday"><h4>Birthday:</h4></label></td><td><input type="date" id="birthday" name="birthday"></td><td><input type="button" onclick="addImage()" value="AddImage"></td></tr>
+	<tr><td><label for="age"><h4>Age: </h4></label></td><td><input type="number" id="age" name="age"> </td></tr>
+	<tr><td><h4>Gender:</h4></td><td>
+			<input type="radio" id="male" name="gender" value="male">
+			<label for="male">Male</label><br>
+			<input type="radio" id="female" name="gender" value="female">
+			<label for="female">Female</label><br>
+			<input type="radio" id="other" name="gender" value="other">
+			<label for="other">Other</label></td></tr>
+	
+	
+	<tr><td><label for="university"><h4>University:</h4> </label></td><td><input type="text" name="university" placeholder="BNMU"> </td></tr>
+	<tr><td><label for="cnm"><h4>College_Nm:</h4></label></td><td>
+			<select id="cnm">
+			<option value="NONE">NONE</option>
+			<option value="T.P. College Madhepura">T.P. COLLEGE MADHEPURA</option>
+			<option value="PS College Madhepura">PS COLLEGE MADHEPURA</option>
+			<option value="MLT College Saharsha">MLT COLLEGE SAHARSHA</option>
+			<option value="R.M College">R.J.M COLLEGE SAHARSHA</option>
+			</select></td></tr>
+	<tr><td><label for="dep"><h4>Department:</h4></label></td><td>
+			<select id="dep">
+			<option value="NONE">NONE</option>
+			<option value="B.A">BA</option>
+			<option value="BBA">BBA</option>
+			<option value="BCA">BCA</option>
+			<option value="B.Sc">BSc</option>
+			<option value="Biotech">Biotech</option>
+			</select></td></tr>		
+	
+	
+	<tr><td><label for="address"><b>Address:</b></label></td></tr>
+	<tr><td><label for="state"><h4>State:</h4></label></td><td><input onblur="convert()" type="text" class="cls" name="state"  placeholder="BIHAR" required ></td></tr>
+	<tr><td><label for="city"><h4>Distict:</h4></label></td><td>
+			<select id="city">
+			<option value="NONE">NONE</option>
+			<option value="MADHEPURA">MADHEPURA</option>
+			<option value="SAHARSHA">SAHARSHA</option>
+			<option value="SUPAUL">SUPAUL</option>
+			<option value="PURNIA">PURNIA</option>
+			</select></td></tr>
+	<tr><td><label for="village"><h4>Village:</h4> </label></td><td><input onblur="convert()" type="text" class="cls" name="village"> </td></tr>
+	<tr><td><label for="po"><h4>Police_station:</h4> </label></td><td><input onblur="convert()" type="text" class="cls" name="po"> </td></tr>
+	</table><table class="tabForButton" width="" border="0">
+	<tr><td><pre><input class="btn2" type="reset" value="reset">      <input class="btn1" type="submit" value="Submit">     <input class="btn3" type="button" value="cancel"></td></tr>
+  </table>
+  </fieldset>
+  </form>
+  <h1>by:<i> NIKITA KASHYAP</i></h1>
+</body>
+</html>

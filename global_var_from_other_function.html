@@ -1,0 +1,18 @@
+<html>
+<body><h>declaration of JS global variable within function</h>
+<script>
+function x()
+{  
+window.value=10000;//declaring global variable by window object  
+}  
+function y()
+{  
+alert(window.value);//accessing global variable from other function  
+}  
+x();
+y();
+</script>
+</body>
+</html>
+
+ 

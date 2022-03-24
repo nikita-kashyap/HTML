@@ -1,0 +1,145 @@
+<html>
+	<head>
+		<title>Student Details</title>
+		<style>
+			body{
+				background-image:radial-gradient(red,tomato,purple,navy);
+				}
+			#studentdetails{
+				position:relative;
+				top:100px;
+				background-image:linear-gradient(navy,purple);
+				height:20px;
+				width:100%;
+				matgin:1px;
+				opacity:.8;
+					}
+				#tablecontainer{
+					background-color:white;opacity:.5;width:65%;height:780px;position:relative;left:235px;top:60px;
+					transition:opacity .5s;
+					}
+				#tablecontainer:hover{
+					opacity:.7;
+					}
+				.personaldetail{
+					transition:font-size .5s;
+					
+					}
+				.personaldetail:hover{
+					box-shadow:5px 2px 20px rgba(0,0,0,0.5);
+					font-size:18;
+					}
+				.buttonfamily{
+					position:relative;
+					left:475px;
+					top:50px;
+					color:black;
+					background-color:aqua;
+					font-size:14px;
+					padding:15px 30px;
+					margin:10px;
+					transition:font-size 1s;
+					}
+				.buttonfamily:hover{
+					font-size:20px;
+					box-shadow:10px 10px 25px aqua;
+					}
+				#browse{
+					transition:background-color .5s;
+					}
+				#browse:hover{
+					background-color:aqua;
+					margin:0px;
+					padding:10px 20px;
+				}
+		</style>
+	</head>
+	
+	<body>		
+			
+			
+			<div style="width:100%;height:40px;border:1px solid aqua;background-color:rgba(0,0,0,0.8);box-shadow:5px 5px 20px aqua;margin:5px;;">
+				<h5 style="color:white;margin:0px;position:relative;top:20px;float:right;" align="center">Presented by TRIDEEPSHIVAM...</h5>
+				<h1 style="color:white;margin:0px;text-shadow:2px 2px 20px aqua;">STUDENT DETAILS</h1>
+			</div>
+			<p style="font-size:24px;color:white;position:absolute;left:500px;border:2px solid aqua;" >Please fill in <strong>CAPITAL</strong> letters</p>
+			<form action="example.comercial.php" method"get">
+				<div id="tablecontainer">
+				<table width="65%" height="95%" align="center" style="color:navy;font-weight:bold;font-size:14px;position:relative;top:10px;">
+					<tr>
+						<td width="400px"><label for="detail">NAME:</label></td>
+						<td><input type="text" class="personaldetail"/></td>
+						<td rowspan="4"> <img name="photo" align="center" height="155px" width="150px"></img></td>
+					</tr>
+					<tr>
+						<td><label for="detail">FATHER'S NAME:</label></td>
+						<td><input type="text" class="personaldetail"/></td>						
+					</tr>
+					<tr>
+						<td><label for="detail">MOTHER'S NAME:</label></td>
+						<td><input type="text" class="personaldetail"/></td>						
+					</tr>
+					<tr>
+						<td><label for="detail">PHONE:</label></td>
+						<td><input type="tel" class="personaldetail" title="number should be like 'countryCode=1234567890" placeholder="+91" pattern="[0-9]{2}-[0-9]{10}" required /></td>
+					</tr>
+					<tr>
+						<td><label for="detail">ADDRESS1:</label></td>
+						<td><textarea class="personaldetail"/></textarea></td>	
+						<td align="center"><button id="browse">Browse Photo</button></td>
+					</tr>
+					<tr>
+						<td><label for="detail">ADDRESS2:</label></td>
+						<td width="50%"><textarea class="personaldetail"/></textarea></td>	
+					</tr>
+					<tr>
+						<td><label for="detail">GENDER:</label></td>
+						<td><input type="radio" name="gender" class="personaldetail"/>Male<input type="radio" name="gender" class="personaldetail"/>Female<input type="radio" name="gender" class="personaldetail"/>Transgender</td>	
+					</tr>
+					<tr>
+						<td><label for="detail">DATE OF BIRTH:</label></td>
+						<td><input type="date" class="personaldetail"/></td>						
+					</tr>
+					<tr>
+						<td><label for="detail">SCHOOL/COLLEGE:</label></td>
+						<td><input type="text" class="personaldetail"/></td>						
+					</tr>
+					<tr>
+						<td><label for="detail">ACADEMIC ADDRESS:</label></td>
+						<td width="50%"><textarea class="personaldetail"/></textarea></td>	
+					</tr>
+					<tr>
+						<td><label for="detail">STATE:</label></td>
+						<td>
+							<select class="personaldetail">
+								<option>NONE...</option><option>DELHI</option><option>ASAM</option><option>NAGALAND</option><option>UP</option><option>JAMMU AND KASHMIR</option><option>HP</option><option>HARIYANA</option><option>RAJASTHAN</option><option>KARNATAK</option><option>UTTARAKHAND</option><option>ARUNACHAL PRADESH</option><option>MP</option><option>MAHARASHTRA</option><option>URISA</option><option>JHARKHAND</option><option>BIHAR</option><option>ANDHRA PRADESH</option><option>WEST BENGAL</option><option>MEGHALAYA</option><option>MANIPUR</option><option>PUNJAB</option><option>MIZORAM</option><option>KERALA</option><option>PUDUCHERI</option><option>MALDEEV</option><option>TIRUVANANPURAM</option><option>TAMILNADU</option><option>SIKKIM</option><option>CHATTISGARH</option>								
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="detail">DISTRICT:</label></td>
+						<td>
+							<select class="personaldetail">
+								<option>NONE...</option><option>PATNA</option><option>BEGUSARAI</option><option>SAHARSA</option><option>MUJAFFARPUR</option><option>JOGBANI</option><option>ARARIA</option><option>MADHUBANI</option><option>PURNIA</option><option>MADHEPURA</option><option>SUPAUL</option><option>KHAGARIA</option><option>MANSI</option><option>BARAUNI</option><option>PURVI CHAMPARAN</option><option>PASHCHIM CHAMPARAN</option><option>AARA</option><option>NALANDA</option><option>GAYA</option><option>KISHUNGANJ</option><option>DARBHANGA</option><option>SITAMARHI</option><option>NHAGALPUR</option><option>MUNGER</option><option>SHIVHAR</option><option>MOTIHARI</option><option>SAARAN</option><option>RAXAUL</option><option>BETIYAH</option><option>NAVADA</option>								
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="detail">MATRICULATION AGGREGATE:</label></td>
+						<td><input type="text" class="personaldetail"/></td>						
+					</tr>
+					<tr>
+						<td><label for="detail">INTERMEDIATE AGGREGATE:</label></td>
+						<td><input type="text" class="personaldetail"/></td>						
+					</tr>
+					<tr>
+						<td><label for="detail">BODY MARK:</label></td>
+						<td><input type="text" class="personaldetail"/></td>						
+					</tr>
+				</table>
+				</div>
+				<button type="submit" class="buttonfamily">Submit</button><button type="reset" class="buttonfamily">Reset</button><button class="buttonfamily">Cancel</button>
+				<div id="studentdetails" align="center"></div>
+			</form>
+	</body>
+</html>

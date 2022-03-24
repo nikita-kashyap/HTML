@@ -1,0 +1,67 @@
+<html>
+<head>
+<script>
+function show()
+{var name=document.frm1.uname.value;
+alert("hello:+name);
+return false;
+}
+</script>
+</head>
+
+<body>
+<form name="frm1" action="" onsubmit="show">//return show
+<label>enter UserName:</label><input type="text" name="uname" value=""/>
+<input type="submit" value="submit"/>
+</form>
+
+</body>
+</html>
+
+<html>
+<head>
+<script>
+function convert()
+{ var x=document.getElementById("fname");
+ x.value=x.value.toUpperCase();
+}
+</script>
+</head>
+
+<body>
+ENTER YOUR NAME:<input type="text" id="fname" onblur="convert()">
+<p>WHEN WE LEAVE THE INPUT FIELD,A FUNCTION IS TRIGGERED WHICH TRANSFORMS THE INPUT TEXT TO UPPERCASE</P>
+</body>
+</html>
+
+<html>
+<head>
+<script>
+function hov(){
+var e=document.getElementById('hover');
+e.style.display='none' ;
+}
+function out(){
+var e=document.getElementById('hover');
+e.style.display='block' ;
+}
+</script>
+</head>
+<body>
+<div id="hover" onmouseout="out()" onmouseover="hov()" style="background-color:hotpink;height:200px;width:200px;">
+</div>
+</body>
+</html>
+
+<html>
+<head>
+	<script> function myFunction(element,colour) { element.style.color = colour; }
+	
+	</script>
+</head>
+<body bgcolor="yellow">
+
+<h2 onclick="myFunction(this, 'red')">Click to change color.</h2>
+
+</body>
+</html>
