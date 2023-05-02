@@ -1,0 +1,54 @@
+* {
+    text-align: center;
+    color: #fff;
+}
+
+.wrap1 p {
+    padding-top:15%;
+}
+.wrap2 p {
+    padding-top:15%;
+}
+
+.box-upper {
+    margin-top: 25px;
+    height: 100px;
+    background-color: grey;
+}
+
+.box-lower {
+    margin-top: 25px;
+    height: 100px;
+    background-color: grey;
+}
+
+.box-right {
+    margin-top: 25px;
+    height: 225px;
+    background-color: grey;
+}
+.box-right p{
+    padding-top: 11%;
+}
+.box2left {
+    margin-top: 25px;
+    height: 225px;
+    background-color: grey;
+}
+
+.box2left {
+    margin-top: 25px;
+    height: 225px;
+    background-color: grey;
+}
+.box2left p{
+    padding-top:23%;
+}
+.footer {
+    margin-top: 25px;
+    height: 120px;
+    background-color: grey;
+}
+.footer p{
+    padding-top:35px;
+}

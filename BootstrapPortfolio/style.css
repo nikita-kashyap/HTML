@@ -1,0 +1,21 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.portfolio_card {
+    text-align: center;
+}
+
+.portfolio_card p {
+    font-size: 10px;
+}
+.navbar img{
+    margin:auto;
+    width:100%;
+}
+
+img {
+    margin: auto;
+    width:100%;
+}
