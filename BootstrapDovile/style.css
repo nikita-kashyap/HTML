@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    color:#454545;
+    font-family: Roboto,fallback-font;
+}
+.abcd{
+    /* position:fixed; */
+    background-color: #fff;
+    z-index: 1;
+}
+.headerCover {
+   padding:15px 0px;
+    text-align: center;
+}
+
+.headerCover img{
+    margin-bottom:2%;
+}
+.headerCover ul{
+    padding:0px;
+}
+.headerCover ul li {
+    font-size: 16px;
+    display: inline;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:2%; 
+}
+.headerCover ul li a{
+    color:#454545;
+    text-underline-offset: 5px; 
+}
+.helloCover{
+    background-color: #fcf5f5;
+}
+.message{
+    margin-top: 20%;
+}
+.message h1{
+    font-family: 'Bodoni Moda', serif;
+    font-size:64px;
+    padding-top: 50px;
+}
+.message p{
+    font-family:"Nunito Sans", sans-serif;
+    gap:5px;
+    padding-bottom: 20px;
+}
+.contactbtn{
+    color:#fff;
+    background-color: #454545;
+    padding:16px 40px;
+    border: none;
+}
+.imageCover img{
+    height: auto;
+    width:100%;
+}
+.aboutImageCover img{
+    height:auto;
+    width:100%;
+}
+.featuredCover{
+    height:auto;
+    margin:auto;
+}
+.featuredCover img{
+    margin:10% 0;
+    padding:50px 0;
+}
+.featuredCover p{
+    font-size: 24px;
+    margin:10% 0;
+    padding:50px 0;
+}
+.cover{
+    height:auto;
+    margin:auto;
+    text-align: center;
+    background-color: #fcf5f5;
+    padding-bottom: 50px;
+}
+.internalNameCover{
+    width:60%;
+    margin: auto;
+}
+.cover h2{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.cover p{
+    line-height: 2;
+}
+.serviceImageCover{
+    /* padding-left: 10%; */
+    height: auto;
+}
+.serviceImageCover img{
+    height: auto;
+    width:100%;
+}
+.service{
+    margin-top: 25%;
+    margin-left: 10%;
+}
+.service .heading_{
+    padding-top:50px ;
+}
+.articleCover{
+    background-color: #fcf5f5;
+    padding-bottom: 5%;
+}
+.articleHead{
+    padding-top: 5%;
+    text-align: center;
+}
+.articleCard{
+    padding-top: 5%;
+}
+.articleCard p {
+    padding-top: 20px;
+    padding-right: 20px;
+    line-height: 1.5;
+}
+.articleHead h2{
+    font-size: 50px;
+}
+.album{
+    height:auto;
+    width:100%;
+    padding-top:50px;
+}
+.nicollusCover{
+    height:auto;
+    background-color: #fcf5f5;
+}
+.nicollus{
+   text-align: center;
+}
+.nicollus img{
+    padding :35px 0;
+    height: 40%;
+    width:40%;
+}
+.aboutNicollus{
+    text-align: left;
+    margin:70px 70px 0 0;
+}
+.footer_{
+    height:auto;
+    margin-top: 4%;
+    text-align: center;
+}       
+.footer_ a i{
+    color: #000;
+    padding-bottom: 2%;
+}
+.footer_ div a{
+    color:#454545;
+    padding-bottom: 2%;
+}
+.contactForm{
+    padding-top: 20%;
+    padding-left: 10%;
+}
+.card{          
+    width:99%;
+    padding-bottom: 20px;
+}
+.card a{
+    text-decoration: none;
+    color:#000;
+}
+.card img{
+    width:100%;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 360px) {
+    body{
+        margin:0;
+        padding:0;
+    }
+    .headerCover ul li{
+        font-size: 12px;
+        margin:auto;
+        padding:5px; 
+    }
+    .message{ margin:auto;}
+    
+    .message h1{
+        font-size:40px;
+    }
+    .featuredCover{text-align: center;}
+    .featuredCover p,.featuredCover img{
+        margin:auto;
+        padding:20px 0;
+    }
+    .contactbtn{
+        margin-bottom:20px;
+    }
+    .aboutNicollus{
+        margin:auto;
+        text-align: center;
+    }
+    .contactForm{
+        padding:0;
+    }
+    .album{
+        width:100%;
+        margin-top: 50px;
+        padding: 0 18px;
+    }
+    .album img{
+        height:auto;
+        width:100%;
+        padding-bottom: 30px;
+    }
+    .internalNameCover{width:100%;
+    padding:0 10px;}
+    .internalNameCover h2{
+        font-size: 28px;
+        font-weight: 500;
+        font-family: 'Bodoni Moda', serif;
+    }
+}
