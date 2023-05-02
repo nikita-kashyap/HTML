@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(201, 197, 197);
+}.banner_cover {
+    margin-top:50px;
+    width:70%;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+    color:#fff;
+    padding: 0;
+    display:flex;
+    justify-content: space-between;
+}
+.firstHalf {
+    padding:20px;
+    color:white;
+    display:flex;
+    justify-content: space-around;
+}
+.secondfHalf {
+    display:flex;
+    justify-content: space-around;
+}
+.banner_msg {
+    /* margin-top:50px; */
+    min-height: 106px;
+    max-width: 350px;
+    margin:10px 0 10px 50px;
+    font-size:24px;
+    font-family:roboto;
+    line-height: 1.34;
+    font-weight: bold;
+}
+.banner_msg span {
+    color:#ffb027;
+}
+.banner-img {
+    position:relative;
+}
+.banner-img img {
+    position: absolute;
+    top: -50px;
+    height: 218px;
+    /* normal screen
+    right: 85px; */
+    /* screen-size:980 */
+    right: 26px;
+}
+.explore-btn {
+    float:right;
+}
+.explore-btn button{
+    padding:10px 15px;
+    margin: 44px 59px 0 0;
+    border:none;
+    border-radius:4px;
+    background-color:#f1af26;
+    font-weight: bold ; 
+}
+/* DASHBOARD PROFILE FORM CSS STARTS */
+.mylabel{
+    height:50px;
+    width:300px;
+    padding:10px;
+    border:1px solid #333;
+    background-color: rgb(228, 189, 189);
+}
+.myForm {
+    background-color: #fff;
+    padding:20px;
+    /* width:50%; */
+}
+.myForm img {
+    height: auto;
+    width:100%;
+}
+.acceptInputs {
+    align-items:center;
+}
+.totalQue {
+    padding:10px 20px 20px;
+}
+.OKbutton {
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+}
+.OKbutton button {
+   padding:10px 50px;
+    
+}
+/* DASHBOARD PROFILE FORM CSS ENDS */
+@media screen and (max-width: 1000px) and (min-width: 360px) {
+    .banner_cover {
+        width:auto;
+        display:flex;
+    }
+    .firstHalf {
+        display:block;
+    }
+    .secondfHalf {
+        display:inline-flex;
+        
+    }
+    .banner_msg {
+        min-height: 50px;
+        max-width: 200px;
+        margin:10px 0px 10px 0px;
+        font-size:15px;
+        font-family:roboto;
+        line-height: 1.34;
+        font-weight: bold;
+    }
+    .banner-img img {
+        position: absolute;
+        top: -20px;
+        height: 150px;
+        right: -85px;
+    }
+    .explore-btn {
+        float:none;
+    }
+    .explore-btn button{ 
+        padding:6px;
+        margin:0;
+        position: relative;
+        z-index: 1;
+        top: 92px;
+        right: 70px;;
+    }
+}
