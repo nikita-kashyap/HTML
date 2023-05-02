@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.header {
+    height:100px;
+}
+
+.dashboard_bg {
+    background: #F4F6F9 no-repeat padding-box;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.dashboard_Story_Card {
+    display:flex;
+    justify-content: space-between;
+}
+
+.dashboard_story {
+    font: normal normal bold 18px/1 Montserrat;
+    color: #1A2258;
+}
+
+.iconEdit {
+    font-size: 24px;
+    color:#fff;
+    margin-top:5px;
+    padding:10px;
+    background-color:#fc7d47;
+    border-radius:50%;
+}
+
+.icon {
+    justify-content: flex-end;
+}
+
+.dashboard_preference_card {
+    display:flex;
+    /* width: 50%; */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px #99999929;
+    padding: 12px;
+}
+ 
+.dashboard_title {
+    font: normal normal 600 14px/1.5 Montserrat;
+    color: #1A2258;
+    padding-bottom: 8px;
+    margin: 0px;
+}
+
+.dashboard_description {
+    font: normal normal normal 10px/1.5 Montserrat;
+    padding:0;
+    color: #999999;
+}
+
+.nav { 
+    margin-left: 10px;
+    border-bottom:1px solid rgb(185, 184, 184);
+}
+.nav ul li {
+    text-decoration: none;
+    display:inline;
+    padding-right:10px ;
+    color: #707070;
+    font: normal normal 600 14px/1 Montserrat;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #707070;
+}
+
+.nav ul {
+    padding:0;
+    margin:10px 0px 0px 0px;   
+}
+
+.nav ul li a:active {
+    color: #7352ff;
+    text-decoration: underline;
+    text-decoration-thickness:2px ;
+    text-underline-offset: 10px ;
+}
+
+.dashboard_newsCover {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.groupItem {
+    display:flex;
+    justify-content: space-between  ;
+}
+
+.groupItem img {
+    padding-left: 5px;
+}
+
+.groupItem a{
+    padding-left: 5px;
+    font: normal normal 600 12px/21px Montserrat;
+    color:#1a2258;
+}
+
+.dropdown-menu {
+    box-shadow: 0px 0px 12px #00000029;
+}
+
+.engineerHead {
+    display:flex;
+    justify-content: space-between;
+}
+
+.newsContent {
+    display:flex;
+    justify-content: space-between;
+}
+
+.dashboard_button {
+    color:#fff;
+    border:none;
+    border-radius: 5px;
+    padding:3px 8px;
+    margin-top: 5px;
+    background-color: #FC8507;
+    box-shadow: 0px 5px 10px #00000042;
+    display: block;
+}
+
+.dashboard_targetCover {
+    width:60%;
+    padding:10px 0px 10px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.dashboard_streamCard {
+    margin: auto;
+    background-color: #FEF1EB;
+    width:70%;
+    padding:10px;
+    border-radius:16px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.changeStream {
+    font-size:16px; 
+    color:#1a2258;
+    opacity:1;
+}
+
+.changeStream span {
+    font-weight:bolder;
+    color:#7352ff;
+    opacity: 1;
+}
+.calenderTitleCover {
+    display:flex;
+    justify-content: space-between;
+    padding:10px 0 0 10px ;
+}
+.calender {
+    background-color: #fff;
+    border-radius:16px;
+    margin-top:20px;
+}
+.calenderTitle {
+    font:normal normal bold 20px/1 Montserrat;
+    color:#1a2258;
+}
+.calenderSubHeading {
+    font:normal normal bold 12px/1 Montserrat;
+    color:#999;
+    padding:10px;
+}
+.calenderImage img {
+    width:100%;
+    height:auto;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 360px) {
+    .dashboard_bg {
+        padding:0px;
+    }
+
+    .sidebar {
+        display:none;
+        height: 1px;
+        width: 1px;
+    }
+
+    #newsCard {
+        border-radius: 8px 8px 0px 0px;
+    }
+    .dashboard_newsCover {
+        border-radius:0px;
+    }
+
+    .newsContent div .dashboard_description {
+        display:none;
+    }
+
+    .newsContent div img {
+        margin-top:10px;
+    }
+
+    .dashboard_targetCover {
+        width:100%;
+        padding:10px 0px 10px 10px;
+        border-radius: 0px;
+    }
+
+    .dashboard_streamCard {
+        width:100%;
+    }
+
+    .dashboard_button {
+        background: #FC7D47 0% 0% no-repeat padding-box;
+        box-shadow: 0px 5px 10px #FC7D4742;
+    }
+}

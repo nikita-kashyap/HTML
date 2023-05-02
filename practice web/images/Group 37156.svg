@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_37156" data-name="Group 37156" transform="translate(-12 -493)">
+    <g id="Group_37124" data-name="Group 37124" transform="translate(12 493)">
+      <rect id="Rectangle_20894" data-name="Rectangle 20894" width="24" height="24" rx="4" fill="#f4f6f9"/>
+    </g>
+    <g id="Group_37149" data-name="Group 37149" transform="translate(16.92 497.704)">
+      <g id="Group_37147" data-name="Group 37147" transform="translate(0 0)">
+        <g id="Rectangle_21462" data-name="Rectangle 21462" transform="translate(1.08 0.63)" fill="#c7b9ff" stroke="#7352ff" stroke-width="1">
+          <rect width="12" height="13.333" rx="0.5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="11" height="12.333" fill="none"/>
+        </g>
+        <g id="Group_37148" data-name="Group 37148" transform="translate(0 0)">
+          <g id="Group_37145" data-name="Group 37145" transform="translate(4.159 4.506)">
+            <g id="Rectangle_21456" data-name="Rectangle 21456" transform="translate(0 0)" fill="#fff" stroke="#7352ff" stroke-width="1">
+              <rect width="4.674" height="1.11" stroke="none"/>
+              <rect x="0.5" y="0.5" width="3.674" height="0.11" fill="none"/>
+            </g>
+            <g id="Rectangle_21459" data-name="Rectangle 21459" transform="translate(0 4.441)" fill="#fff" stroke="#7352ff" stroke-width="1">
+              <rect width="3.506" height="1.11" stroke="none"/>
+              <rect x="0.5" y="0.5" width="2.506" height="0.11" fill="none"/>
+            </g>
+            <g id="Rectangle_21457" data-name="Rectangle 21457" transform="translate(0 2.22)" fill="#fff" stroke="#7352ff" stroke-width="1">
+              <rect width="4.674" height="1.11" stroke="none"/>
+              <rect x="0.5" y="0.5" width="3.674" height="0.11" fill="none"/>
+            </g>
+          </g>
+          <g id="Group_37144" data-name="Group 37144" transform="matrix(0.695, 0.719, -0.719, 0.695, 0.799, 0)">
+            <g id="Rectangle_21460" data-name="Rectangle 21460" transform="translate(0)" fill="#fff" stroke="#fc7d47" stroke-width="1">
+              <rect width="19.173" height="1.11" stroke="none"/>
+              <rect x="0.5" y="0.5" width="18.173" height="0.11" fill="none"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_37152" data-name="Group 37152" transform="translate(-9 -558)">
+    <g id="Group_37134" data-name="Group 37134" transform="translate(9.4 558.4)">
+      <g id="Group_36167" data-name="Group 36167" transform="translate(0 0)">
+        <rect id="Rectangle_20894" data-name="Rectangle 20894" width="24" height="24" rx="4" transform="translate(-0.4 -0.4)" fill="#f4f6f9"/>
+      </g>
+    </g>
+    <g id="Group_37151" data-name="Group 37151" transform="translate(14.646 564.688)">
+      <circle id="Ellipse_1741" data-name="Ellipse 1741" cx="4.648" cy="4.648" r="4.648" transform="translate(2.085 0.664)" fill="#c7b9ff"/>
+      <g id="Group_37150" data-name="Group 37150" transform="translate(0 0)">
+        <g id="smilee">
+          <path id="Path_77069" d="M2.57.63H13.194V11.254H2.57Z" transform="translate(0.843 0.14)" fill="none"/>
+          <path id="Path_77069-2" d="M0,2.05H10.624V12.674H0Z" transform="translate(0 0.606)" fill="none"/>
+          <path id="Path_77070" d="M6.312,9.558A4.243,4.243,0,1,0,2.062,5.322h0A4.245,4.245,0,0,0,6.312,9.571ZM3.656,8A2.656,2.656,0,1,1,8.968,8H7.905A1.594,1.594,0,0,0,4.718,8H3.656Zm.531-3.187a.8.8,0,1,1,.8-.8h0A.8.8,0,0,1,4.187,4.817Zm4.249,0a.8.8,0,1,1,.8-.8h0A.8.8,0,0,1,8.436,4.817ZM6.312,10.66a5.306,5.306,0,1,1,0,.013Z" transform="translate(0.328 -0.05)" fill="#7352ff" stroke="#7352ff" stroke-width="0.09"/>
+        </g>
+        <g id="smilee-2" data-name="smilee" transform="translate(0 0.77)">
+          <path id="Path_77069-2-2" data-name="Path_77069" d="M2.57.63H13.194V11.254H2.57Z" transform="translate(0.843 -0.63)" fill="none"/>
+          <path id="Path_77069-2-3" data-name="Path_77069-2" d="M0,2.05H10.624V12.674H0Z" transform="translate(0 -0.164)" fill="none"/>
+          <path id="Path_77070-2" data-name="Path_77070" d="M3.066,7.221a2.656,2.656,0,1,1,5.312,0H7.315a1.594,1.594,0,0,0-3.187,0H3.066ZM3.6,4.034a.8.8,0,1,1,.8-.8h0A.8.8,0,0,1,3.6,4.034Zm4.249,0a.8.8,0,1,1,.8-.8A.8.8,0,0,1,7.846,4.034Z" transform="translate(0.918 -0.036)" fill="#fc7d47" stroke="#fc7d47" stroke-width="0.09"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
